@@ -1,5 +1,63 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 #main-container {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    width: 75%;
+    min-height: 100vh;
+    height: auto;
+     background-color: rgb(38, 255, 0); 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+#header-container {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: red; 
+}
+
+#text-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white; 
+    /*animation-name: text-opening;
+    animation-duration: 2s;
+    margin-top: 37px;*/
+}
+
+#header-text-container {
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 20%;
+    padding: 0px;
+}
+
+#header-text {
+    font-size: 5vw;
+    margin: 0;
+}
+
+/*@keyframes text-opening {
+    from {
+        margin-top: 0px;
+    }
+
+    to {
+        margin-top: 37px;
+    }
+}*/
+
+#text-cover-top {
+    width: 100%;
+    height: 10%;
+    background-color: black;
 }
