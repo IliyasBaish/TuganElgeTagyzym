@@ -1,15 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="test.css">
-</head>
-<body>
-    <div class="newspaper">Spinning newspaper<br>causes dizziness</div>
-
+  </head>
+  <body>
+    <div id="top-link"></div>
+    <div id="arrow" onclick="scrollToTop()" data-animate="arrow-appearing 0.5s forwards">
+      <div id="left-arr" >   
+      </div>
+      <div id="right-arr">
+      </div>
+      </div>
+    <div class="container-fluid" id="container-main">
+        
+        <div class="row" id="data">      
+            <div class="col-lg-9 mx-auto vh-100" id="data-two">
+                <div class="container-fluid vh-100" id="top-container">
+                    <div id="header-container" class="lineUp">
+                        <h1 id="header-text">Nurzan Naushaubaev</h1>
+                        <div id="menu">
+                          <div class="menu_i"><a href="#header-one">One</a></div>
+                          <div class="menu_i"><a href="#header-two">Two</a></div>
+                          <div class="menu_i">Three</div>
+                        </div>
+                    </div>   
+                    <div id="img-container">
+                      <img id="naushaubaev-img" src="naushaubaev.png">            
+                    </div>
+                </div>
+            </div>     
+        </div> 
+        <div class="row" id="data1">
+          <div class="col-lg-9 mx-auto" id="data-one">
+            <div class="scroll-anim" data-animate="onScrollHeadersAnim 1s" id="header-one">HEADERONE</div>
+            <div class="scroll-anim text-data" data-animate="mainTextAnim 2s" id="text-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate incidunt praesentium, rerum voluptatem in reiciendis officia harum repudiandae tempore suscipit ex ea, adipisci ab porro.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate incidunt praesentium, rerum voluptatem in reiciendis officia harum repudiandae tempore suscipit ex ea, adipisci ab porro.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate incidunt praesentium, rerum voluptatem in reiciendis officia harum repudiandae tempore suscipit ex ea, adipisci ab porro.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate incidunt praesentium, rerum voluptatem in reiciendis officia harum repudiandae tempore suscipit ex ea, adipisci ab porro.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate incidunt praesentium, rerum voluptatem in reiciendis officia harum repudiandae tempore suscipit ex ea, adipisci ab porro.</div>
+          </div>
+        </div>
+        <div class="row" id="data2">
+          <div class="col-lg-9 mx-auto" id="data-one">
+            <div class="row"><div class="scroll-anim" data-animate="onScrollHeadersAnim 1s" id="header-two">HEADERTWO</div></div>
+            <div class="row">
+                <div class="col-6"  id="book-container-1">
+                  <div class="mx-auto" id="book1">
+                    <div id="book1-cover">
+                      <div id="book1-title">TITLE1</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6"  id="book-container-2">
+                  <div class="mx-auto" id="book2">
+                    <div id="book2-cover">
+                      <div id="book2-title">TITLE2</div>
+                    </div>
+                  </div>
+                </div>
+            </div>           
+          </div>
+        </div>
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script src="test.js"></script>
-</body>
+  </body>
+  </body>
 </html>
