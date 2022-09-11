@@ -262,22 +262,20 @@ a {
 }
 
 .book {
-  margin-top: 13vh;
-  background-color: white;
-  width: 20vw;
-  height: 60vh;
+  width: 100%;
+  height: 100%;
   box-shadow: 5px 5px 2px 2px rgba(162, 194, 223, 0.566);
   transition: 0.3s;
   border-radius: 7px;
   overflow: hidden;
   background-image: url("book1.jpeg");
   background-position: center;
-  opacity: 0;
+  opacity: 1;
 }
 
 .book:hover {
   box-shadow: 6px 6px 4px 4px rgba(162, 194, 223, 0.566);
-  transform: translate(-5px, -5px) scale(1.02);
+  transform: translate(-10px, -10px) scale(1.02);
 }
 
 .book-cover {
@@ -322,4 +320,44 @@ a {
   opacity: 1;
 }
 
+#book1:hover {
+  box-shadow: 6px 6px 4px 4px rgba(162, 194, 223, 0.566);
+  transform: translate(-10px, -10px) scale(1.02);
+}
+
+.book-container {
+  margin-top: 13vh;
+  width: 20vw;
+  height: 60vh;
+  opacity: 0;
+}
+
 /* Book style */
+
+/* Footer style */
+
+#footer {
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-top: 2vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-element {
+  text-align: center;
+}
+
+.footer-text {
+  margin: 0;
+  padding: 0;
+  font-size: 2vh;
+  color: white;
+}
+
+/* Footer style */
