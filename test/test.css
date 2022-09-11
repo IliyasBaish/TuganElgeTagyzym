@@ -120,6 +120,9 @@ a {
 
 /* Header style */
 
+#data {
+  height: 101vh;
+}
 #header-text {
   font-size: 4vw;
   margin: 0;
