@@ -288,6 +288,7 @@ a {
   opacity: 0;
   background-color: white;
   transition: 0.5s;
+  position: relative;
 }
 
 .book-cover:hover {
@@ -302,6 +303,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 1;
+  color: black;
 }
 
 #book1-title {
