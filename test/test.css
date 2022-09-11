@@ -222,6 +222,7 @@ a {
 }
 
 .section-header {
+  margin-top: 10px;
   display: inline-block;
   font-size: 9vh;
   width: auto;
