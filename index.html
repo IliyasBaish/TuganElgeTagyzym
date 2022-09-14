@@ -8,15 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="arrow" onmouseover="arrowAnim()" >
-        <div id="left-arr" >
-            
-            <div id="black-l" data-animate="arr-anim-l 0.5s"></div>
-        </div>
-        <div id="right-arr">
-            
-            <div id="black-r"></div>
-        </div>
+    <div id="map-container" data-animate="map-container-anim 2s forwards">
+        <img src="map1.png" id="map">
+    <div class="place-bttn" id="place-bttn-1" onclick="onPlaceBttnClick()">
+        <div class="circle-in"></div>
+        <div class="circle-out"></div>
+    </div>
     </div>
     <script src="script.js"></script>
 </body>
