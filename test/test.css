@@ -220,6 +220,7 @@ a {
 .section {
   min-height: 101vh;
   padding-bottom: 5vh;
+  font-size: 3vh;
 }
 
 .section-header {
@@ -393,7 +394,7 @@ a {
 }
 
 .section-bottom {
-  margin: 0;
+  margin-top: 6vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   color: white;
@@ -463,3 +464,8 @@ a {
 }
 
 /* Section with imgs */
+
+#biz-turaly {
+  font-size: 4vh;
+  padding-left: 5vw;
+}
