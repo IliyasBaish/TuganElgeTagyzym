@@ -43,7 +43,7 @@ let observer2 = new IntersectionObserver(topHeaderObsRev);
 observer2.observe(document.getElementById("header-text"))
 
 function book1redirect() {
-    window.location.href = "naushabaiuly_nurzhan_uiyktama_oian_alashym.pdf";
+    window.location.href = "https://tilalemi.kz/viewer/viewer.php?file=/books/7446.pdf";
 }
 
 function book2redirect() {
