@@ -41,3 +41,11 @@ const topHeaderObsRev = (entries) => {
 
 let observer2 = new IntersectionObserver(topHeaderObsRev);
 observer2.observe(document.getElementById("header-text"))
+
+function book1redirect() {
+    window.location.href = "naushabaiuly_nurzhan_uiyktama_oian_alashym.pdf";
+}
+
+function book2redirect() {
+    window.location.href = "https://e-history.kz/ru/news/show/5749/";
+}

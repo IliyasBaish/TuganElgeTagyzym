@@ -282,9 +282,18 @@ a {
   transition: 0.3s;
   border-radius: 7px;
   overflow: hidden;
-  background-image: url("book1.jpeg");
+  background-size:cover;
   background-position: center;
   opacity: 1;
+}
+
+#book1 {
+  background-image: url("book1.jpg");
+}
+
+
+#book2 {
+  background-image: url("book2.jpg");
 }
 
 .book:hover {
