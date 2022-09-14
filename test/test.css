@@ -121,7 +121,7 @@ a {
 /* Header style */
 
 #data {
-  height: 101vh;
+  min-height: 101vh;
 }
 #header-text {
   font-size: 4vw;
@@ -196,9 +196,9 @@ a {
 
 #menu {
   color: white;
-  margin-top: 50px;
+  margin-top: 5vh;
   padding-top: 10px;
-  font-size: 30px;
+  font-size: 5vh;
   padding-bottom: 10px;
   animation: 2s imgAnim ease-out;
 }
@@ -219,6 +219,7 @@ a {
 
 .section {
   min-height: 101vh;
+  padding-bottom: 5vh;
 }
 
 .section-header {
