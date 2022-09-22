@@ -207,6 +207,7 @@ a {
 .menu_i{
   opacity: 0.7;
   transition: 0.3s;
+  border-bottom: 5px solid white;
 }
 
 .menu_i:hover {
